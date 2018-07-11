@@ -1,0 +1,142 @@
+html{
+	font-size: 100%;
+}
+body{
+	font-size: 1em;
+	font-family:"Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+	background-color: #ebebeb;
+}
+a {
+  color:black;
+  outline: none;
+}
+a:hover {
+  color: #e67e22;
+  text-decoration: none;
+}
+/*header*/
+.main-header{
+	text-align: center;
+	padding: 42px 0;
+	background: #FFFFFF;
+}
+
+/*navtation*/
+@media (max-width: 767px){
+	.navbar-header{
+	text-align:center;
+}
+.navbar-header i {
+  height: 56px;
+  line-height: 56px;
+  font-size: 2em;
+  cursor: pointer;
+}
+}
+@media (min-width: 768px){
+nav.navigation{
+	background-color: white;
+	border-bottom: 2px solid #e1e1e1;
+	border-top: 2px solid #e1e1e1;
+}
+nav .navbar{
+	margin-bottom: 0px;
+}
+.nav-limit{
+	display: none;
+	}
+.navbar-nav {
+  float: none;
+  text-align:center;
+}
+
+ul.nav.navbar-nav  li {
+    float:none;
+    display: inline-block;
+    margin: 0em;
+	}
+}
+
+/*section*/
+.main-section{
+	margin-top: 30px;
+}
+.article .panel-heading{
+	margin-top: 20px;
+	text-align: center;
+}
+.article .panel-body button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.article .panel-heading .post-meta a{
+	color:#e67e22;
+}
+.article .panel-heading .post-meta a:hover{
+	text-decoration: underline;
+}
+.panel-footer{
+	background-color: white;
+}
+
+.community p{
+	color:#e67e22;
+}
+.community p a{
+	color:#e67e22;
+}
+.community p a:hover{
+	text-decoration: underline;
+}
+/*end section*/
+
+/*start footer*/
+.main-footer{
+	background-color: #202020;
+	color:white;
+}
+.main-footer .title{
+	width:30%;
+	border-bottom: 1px solid orange;
+}
+.main-footer .link a{
+	padding: 2px;
+	margin:5px;
+	float:left;
+}
+.main-footer .link a:link,.main-footer .link a:visited{
+	color:gray;
+}
+.main-footer .link a:hover,.main-footer .link a:active{
+	background-color: orange;
+}
+.main-footer .tag-cloud a{
+	border:1px solid gray;
+}
+/*end footer*/
+/*start copyright*/
+.copyright{
+	background-color: black;
+	color:gray;
+	text-align: center;
+	padding: 30px;
+}
+.copyright a{
+	color:gray;
+}
+.copyright a:hover{
+	text-decoration: underline;
+}
+/*end copyright*/
+#back-to-top{
+	position:fixed ;
+	right: 10px;
+	bottom:10px;
+	width:30px;
+	height:30px;
+	background-color:orange;
+	text-align: center;
+	line-height:30px;
+	color:white;
+	 display: none; 
+	}
